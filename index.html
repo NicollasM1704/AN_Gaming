@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A.N Gaming & Tech</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo"><a href="index.html"> A.N Gaming & Tech</a></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#depoiment">Clientes</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu" onclick="toggleMenu()">☰</div>
+        </header>
+
+        <section class="banner">
+            <div class="banner-content">
+                <img class="logo-img" src="./img/logo.jpg">
+                <h1>Bem-vindo à A.N Gaming & Tech</h1>
+                <p>Seu setup Gamer está aqui!</p>
+                <a href="#services" class="btn btn-primary">Explore Nossos Serviços</a>
+            </div>
+
+        </section>
+
+        <main class="container">
+            <section id="about" class="section about">
+                <h2 class="section-title">Sobre a A.N Gamming</h2>
+                <p class="exp"> Elevando sua experiência no game com expertise e paixão!</p>
+                <p>A.N Gaming & Tech é apaixonada por técnologia e jogos, oferecendo equipamentos de alto desempenho e suporte especializado.<br/> Ajudamos gamers a criar seus setups dos sonhos com serviços personalizados e consultoria de experts, garantindo uma experiência de jogo única e sem falhas.</p>
+            </section>
+
+            <section id="depoiment"class="depoiment">
+                <section>
+                    <body>
+                        <div class="testimonial-container">
+                            <div class="testimonial-header">O que nossos clientes estão dizendo:</div>
+                            <button class="arrow arrow-left" onclick="scrollTestimonials(-1)">&#8249;</button>
+                            <div class="testimonial-slider" id="slider">
+                            <div class="testimonial">
+                            <div class="testimonial-content">
+                                <img src="https://via.placeholder.com/50" alt="User">
+                                <div>
+                                    <p>"Esse PC gamer superou todas as minhas expectativas. Jogos rodam lisos e a performance é absurda!"</p>
+                                    <div class="testimonial-name">- João Silva</div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <img src="./assets/pc1.jpg" alt="User">
+                                <div>
+                                    <p>"Design incrível e muito potente! Melhor compra que fiz para jogar meus jogos favoritos."</p>
+                                    <div class="testimonial-name">- Maria Oliveira</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <img src="https://via.placeholder.com/50" alt="User">
+                                <div>
+                                    <p>"Entrega rápida, ótimo atendimento e um PC que impressiona desde o primeiro uso."</p>
+                                    <div class="testimonial-name">- Pedro Costa</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="arrow arrow-right" onclick="scrollTestimonials(1)">&#8250;</button>
+                    </div>
+                </section>
+            </section>
+
+            <section id="services" class="section services">
+                <h2 class="section-title">Serviços que oferecemos</h2>
+                <p>Aproveite nossos recursos para aprimorar seus conhecimentos e habilidades no game!
+                </p>
+                <div class="services-grid">
+
+                    <div class="service-card">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Seu PC personalizado</h3>
+                        <p>Aproveitando nosso vasto conhecimento e expertise, criamos PCs gammer personalizados de acordo com suas especificações, garantindo o melhor desempenho para suas necessidades de jogo.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <i class="fas fa-arrow-up"></i>
+                        <h3>Manutenção e upgrades</h3>
+                        <p>Nossos técnicos especializados oferecem serviços completos de manutenção e upgrade, mantendo seus sistemas de gaming funcionando de forma suave e eficiente, para que você possa focar no seu gameplay</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-tools"></i>
+                        <h3>Notebook lento?</h3>
+                        <p>Seu notebook está lento? Nós tambem cuidamos para você! Deixe nossa equipe especializada resolvê-lo. Garantimos que seu equipamento volte a funcionar rápido e eficiente, para você aproveitar ao máximo. Conte conosco!
+                        </p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Consultorias</h3>
+                        <p> Oferecemos consultoria especializada para guiá-lo nas opções de hardware que se adequam ao seu orçamento, ajudando você a tomar decisões informadas que se adequem ao seu estilo e preferências de jogo. Soluções estratégicas para empresas e gamers.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <i class="fas fa-tools"></i>
+                        <h3>Suporte T-Home</h3>
+                        <p>Assistência rápida para resolver problemas de hardware e software. Tenha o melhor da assistencia técnica no conforto de sua casa!</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="contact" class="section contact">
+                <h2 class="section-title">Contato</h2>
+                <p>Entre em contato conosco para dúvidas, cotações ou suporte técnico!</p>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </section>
+            
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 A.N Gaming & Tech. Todos os direitos reservados. <br/> Desenvolvido por <a class="copy" href="https://www.linkedin.com/in/nicollas-mello/">Nicollas Mello</a></p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61561082699681"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/an_gamming_tech"><i class="fab fa-instagram"></i></a>
+                    </div>
+            </div>
+        </footer>
+
+        <script>
+            function toggleMenu() {
+                document.querySelector('.nav-links').classList.toggle('active');
+            }
+        </script>
+        
+         <script pt src="./script.js"></script>
+        
+    </body>
+</html>
