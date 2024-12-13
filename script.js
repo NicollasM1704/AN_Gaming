@@ -8,6 +8,16 @@ testimonials.forEach((testimonial) => {
     slider.appendChild(clone);
 });
 
+function scrollTestimonials(direction) {
+    const slider = document.getElementById('slider');
+    const scrollAmount = slider.offsetWidth * 0.8; // Define a quantidade de rolagem
+    slider.scrollBy({
+        left: direction * scrollAmount,
+        behavior: 'smooth',
+    });
+}
+
+
 function startAutoScroll() {
     autoScrollInterval = setInterval(() => {
         const maxScrollLeft = slider.scrollWidth / 2; // Metade do conteúdo duplicado
@@ -22,8 +32,10 @@ function stopAutoScroll() {
     clearInterval(autoScrollInterval);
 }
 
+
 slider.addEventListener('mouseover', stopAutoScroll);
 slider.addEventListener('mouseout', startAutoScroll);
 
 // Inicia o carrossel automático
 startAutoScroll();
+
