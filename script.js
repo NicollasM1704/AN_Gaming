@@ -2,11 +2,6 @@ const slider = document.getElementById('slider');
 const testimonials = Array.from(slider.children);
 let autoScrollInterval;
 
-// Duplica os itens para criar a rolagem infinita
-testimonials.forEach((testimonial) => {
-    const clone = testimonial.cloneNode(true);
-    slider.appendChild(clone);
-});
 
 function scrollTestimonials(direction) {
     const slider = document.getElementById('slider');
