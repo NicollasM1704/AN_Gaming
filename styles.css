@@ -12,7 +12,7 @@
     --secondary-color: #1e1e2f; /* Azul escuro/preto */
     --dark-color: #0d0d14; /* Preto mais profundo */
     --light-color: #ffffff; /* Branco */
-    --text-color: #c7c4c4; /* Branco */
+    --text-color: #ffffff;
 }
 
 /* Estilo geral */
@@ -402,8 +402,60 @@ body {
     text-decoration: none;
 }
 
-/* Responsividade */
 
+/* Container Obrigado */
+.thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff3300, #ff5a1f);
+    color: #fff;
+}
+
+/* Conteúdo */
+.thank-you-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+}
+
+.thank-you-content i {
+    font-size: 4rem;
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+.thank-you-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.thank-you-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Botão */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background: #4caf50;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #388e3c;
+}
+
+/* Responsividade */
 @media only screen and (max-width: 900px){
     .nav-links {
         display: none;
