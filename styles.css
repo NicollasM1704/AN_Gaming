@@ -229,7 +229,7 @@ body {
 }
 
 .service-card {
-    background-color: #fd8e25;
+    background-color: #e47309;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -430,7 +430,7 @@ body {
 
 .thank-you-content i {
     font-size: 4rem;
-    color: #ff4800;
+    color: #af684c;
     margin-bottom: 20px;
 }
 
