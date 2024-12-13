@@ -478,23 +478,6 @@ body {
         padding: 10px;
     }
 
-    @keyframes load {
-        0% {
-            left: 0;
-            height: 30px;
-            width: 15px;
-        }
-        50% {
-            height: 8px;
-            width: 40px;
-        }
-        100% {
-            left: 500px;
-            height: 30px;
-            width: 15px;
-        }
-
-    }
         .testimonial-container {
             width: 100%; /* Ocupa toda a largura */
             max-width: 100%; /* Remove restrição de largura máxima */
