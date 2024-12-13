@@ -263,7 +263,6 @@ body {
 
 
 /*Depoimentos*/
-
 .depoiment{
     background: linear-gradient(
             to right,
@@ -430,7 +429,7 @@ body {
 
 .thank-you-content i {
     font-size: 4rem;
-    color: #af684c;
+    color: #36db04;
     margin-bottom: 20px;
 }
 
