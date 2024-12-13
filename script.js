@@ -8,29 +8,6 @@ testimonials.forEach((testimonial) => {
     slider.appendChild(clone);
 });
 
-testimonials.forEach((testimonial) => {
-    const clone = testimonial.cloneNode(true);
-    slider.appendChild(clone);
-});
-
-function scrollTestimonials(direction) {
-    const scrollAmount = slider.offsetWidth * 0.8;
-    slider.scrollBy({
-        left: direction * scrollAmount,
-        behavior: 'smooth',
-    });
-}
-
-testimonials.forEach((testimonial) => {
-    const clone = testimonial.cloneNode(true);
-    slider.appendChild(clone);
-});
-
-testimonials.forEach((testimonial) => {
-    const clone = testimonial.cloneNode(true);
-    slider.appendChild(clone);
-});
-
 function startAutoScroll() {
     autoScrollInterval = setInterval(() => {
         const maxScrollLeft = slider.scrollWidth / 2; // Metade do conteúdo duplicado
