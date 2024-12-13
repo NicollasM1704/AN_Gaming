@@ -420,7 +420,7 @@ body {
 /* Conteúdo */
 .thank-you-content {
     text-align: center;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(0, 0, 0);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
