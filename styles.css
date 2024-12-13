@@ -427,19 +427,6 @@ body {
 }
 
 /* Responsividade */
-@media (max-width: 1024px) {
-    .banner {
-        height: 40vh;
-    }
-
-    .banner-content h1 {
-        font-size: 1.5rem;
-    }
-
-    .banner-content p {
-        font-size: 0.9rem;
-    }
-}
 
 @media (max-width: 768px) {
     .nav-links {
@@ -465,9 +452,19 @@ body {
     .services-grid {
         grid-template-columns: 1fr;
     }
-}
 
-@media (max-width: 480px) {
+    .banner {
+        height: 40vh;
+    }
+
+    .banner-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner-content p {
+        font-size: 0.9rem;
+    }
+
     .header {
         flex-direction: column;
         padding: 10px;
@@ -495,25 +492,23 @@ body {
     }
 
     .testimonial {
-        flex: 0 0 90%;
+        flex: 0 0 50%;
     }
 
     .services-grid {
         grid-template-columns: 1fr;
     }
-}
-@media (max-width: 480px) {
+
     .carousel-btn {
         width: 30px;
         height: 30px;
         font-size: 14px;
+        
     }
 
     .clientes-card {
         padding: 10px;
     }
 
-    .carousel-container {
-        max-width: 100%; /* Usa toda a largura da tela em dispositivos pequenos */
-    }
+    
 }
